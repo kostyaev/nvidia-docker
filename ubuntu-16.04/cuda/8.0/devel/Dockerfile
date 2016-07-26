@@ -1,4 +1,4 @@
-FROM cuda:8.0-runtime
+FROM kostyaev/cuda:8.0-cudnn5-runtime
 MAINTAINER NVIDIA CORPORATION <digits@nvidia.com>
 
 RUN curl -o cuda-repo.deb -fsSL http://developer.download.nvidia.com/compute/cuda/8.0/direct/cuda-repo-ubuntu1604-8-0-rc_8.0.27-1_amd64.deb && \

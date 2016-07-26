@@ -1,4 +1,4 @@
-FROM cuda:8.0-runtime
+FROM kostyaev/cuda:8.0-runtime
 MAINTAINER NVIDIA CORPORATION <digits@nvidia.com>
 
 ENV CUDNN_VERSION 5
